@@ -1,5 +1,5 @@
-function Ship () {
-    
+function Ship (startingPort) {
+    this.startingPort = startingPort;
 }
 
 module.exports = Ship;
